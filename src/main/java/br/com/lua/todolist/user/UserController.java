@@ -34,7 +34,6 @@ userModel.setPassword(passwordHashred);
 
 var userCreated = this.userRepository.save(userModel);
 return ResponseEntity.status(HttpStatus.CREATED).body(userCreated);
-
 }
 
 }
